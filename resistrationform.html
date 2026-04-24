@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart student admision portal</title>
+    <style>
+        body
+        {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+             background-color: rgb(174, 206, 216);
+        }
+    
+    h2{align-items: center;}
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+
+}
+
+input,select,textarea{
+    width: 90%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 175, 175);
+
+}
+.gender{
+    display: flex;
+ 
+    gap: 10px;
+margin-top: 5px;
+}
+
+button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(0, 238, 79);
+    color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: yellow;
+}
+
+
+        
+#container{ width: 400px;
+background-color: azure;
+margin: 30% auto;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 1px 1px 4px rebeccapurple;} #clear{
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+ 
+ <div id="container">
+    <h2>smart student admision portal</h2>
+    <form action="">
+
+        <label for="">full name</label>
+        <input type="text" placeholder="username" required>
+<br>
+        <label for="">father's name</label>
+        <input type="text" placeholder="" required>
+<br>
+<label for=""> date of birth</label>
+<input type="date" required>
+
+<br>
+<label for="">gender</label>
+
+<input type="radio" value="male" name="gender" >mele
+<input type="radio" value="femele" name="gender">femele
+<br>
+
+<label for="">mobile no.</label> 
+<input type="number" placeholder="enter valid no." required>
+
+<br>
+<label for="">email id</label> 
+<input type="email" required>
+<br>
+<label for="">address</label>
+<input type="text" required>
+<br>
+<label for="">
+    course applying for
+</label>
+<select name="course" id="" required>
+    <option value="computer science"> computer science</option>
+    <option value="inforamtion technology"> information technology</option>
+    <option value="mechanical eng">mechanical eng</option>
+    <option value="civil eng">civil eng</option>
+    <option value="electronics">electronics</option>
+    <option value="communication eng"> communication eng</option>
+    <option value="bussiness administration">bussiness administration</option>
+</select><br>
+<label for=""></label>
+previous schol/clg </label>
+<input type="text"><br>
+<label for="">
+marks/percentage </label>
+<input type="number"><br>
+
+<label for="">upload photo</label>
+<input type="text" placeholder="upload photo">
+<br>
+<label for="">upload document</label>
+<input type="file">
+
+<br><br>
+<button>submit</button> 
+
+<input type="reset" value="clear" id="clear"> 
+</form>
+ </div>
+</body>
+</html>
